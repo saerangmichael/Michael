@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya | Michael</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header-section">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.wa6sbJkq3nLw7QeuUpT_bQHaHa?pid=Api&P=0&h=180" alt="Foto Profil" class="profile-img">
+        <h1>Michael Joseph Saerang</h1>
+        <p class="role">Siswa / Kedokteran</p>
+    </header>
+
+    <main class="container">
+        <section class="about" id="tentang">
+            <h2>Tentang Saya</h2>
+            <p>Halo! Saya adalah seorang siswa yang berdomisili di Surabaya. Saya memiliki ketertarikan yang besar dalam bidang Kimia. Saya selalu antusias untuk belajar hal-hal baru dan mengembangkan keterampilan saya.</p>
+        </section>
+
+        <section class="gallery-section">
+            <h2>Galeri Saya</h2>
+            <div class="gallery-container">
+                <img src="https://m.media-amazon.com/images/M/MV5BYzZlZWRkNDctNzE0Ny00OGFiLTk5NTAtZjRjYjljNmE5ZWM3XkEyXkFqcGc@._V1_.jpg" alt="Foto Galeri 1">
+                <img src="https://thumb.viva.co.id/media/frontend/thumbs3/2024/08/06/66b20641e2593-steve-saerang-senior-vice-president-head-of-corporate-communications-ioh_1265_711.jpg" alt="Foto Galeri 2">
+                <img src="https://wpcdn.us-midwest-1.vip.tn-cloud.net/www.whiznews.com/content/uploads/2025/08/r/y/Joseph-Pic-25-627x1024.jpg" alt="Foto Galeri 3">
+            </div>
+        </section>
+
+        <section class="skills" id="keahlian">
+            <h2>Keahlian</h2>
+            <ul class="skill-list">
+                <li>HTML & CSS</li>
+                <li>Matematika</li>
+                <li>Berenang</li>
+                <li>Gaming</li>
+            </ul>
+        </section>
+
+        <section class="contact" id="kontak">
+            <h2>Kontak</h2>
+            <p>Mari terhubung! Anda bisa menghubungi saya melalui:</p>
+            <div class="contact-links">
+                <a href="mailto:michael.saerang@students.iphschools.sch.id" class="btn">Email</a>
+                <a href="https://instagram.com/michael.saerang" target="_blank" class="btn btn-outline">Sosial Media</a>
+            </div>
+        </section>
+
+        <section class="feedback-form">
+            <h2>Kirim Masukan</h2>
+            <p>Punya saran atau ingin sekadar menyapa?</p>
+            <form action="#" id="feedbackForm">
+                <div class="form-group">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" placeholder="Nama Anda..." required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan/Masukan:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-submit">Kirim Pesan</button>
+            </form>
+            <div id="commentDisplay"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026, Michael. Dibuat dengan HTML & CSS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
